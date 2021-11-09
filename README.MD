@@ -1,5 +1,6 @@
 Hi!
 This project is a reconstruction of a 10bis api.
+it returns items from arrcaffe's menu
 
 To run the project in the root folder run the following command:
 'flask run'
