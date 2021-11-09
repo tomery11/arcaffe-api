@@ -112,7 +112,10 @@ def getItemById(page_id, my_category):
     toReturn = {}
     for item in all_items:
         toReturn = item
-        if item["id"] == pageid:
+        print("item id: " ,type(item["id"]))
+        print(type(pageid))
+        if str(item["id"]) == pageid:
+            print("in ifffff")
             return toReturn
     return toReturn
 

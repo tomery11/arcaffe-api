@@ -19,3 +19,9 @@ body of object must look like this:
     "desserts": "[2055836,2055836,2055836]",
     "pizzas": "[2055833,2055833]"
 }
+
+
+to run tests
+first run server: flask run
+and then run in root folder in another terminal
+pytest tests.py
